@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3203005547030620612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5818555086607274658}
+  - component: {fileID: 5036607255147912556}
+  m_Layer: 0
+  m_Name: CatSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5818555086607274658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203005547030620612}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8218233355561699580}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5036607255147912556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3203005547030620612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db79c83f7f01964ab7d4f13924988e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnLocation: {fileID: 8218233355561699580}
+  UIParent: {fileID: 0}
+  catAmount: 0
+  catObject: {fileID: 2130498690500114406, guid: cb9c7cb36f4d5b447a06a5e54a4f930c, type: 3}
+  UIObject: {fileID: 7193582661615799236, guid: 24d9b488d898fb148a6def49e76b0a9b, type: 3}
+  currentCat: {fileID: 0}
+  catTextures:
+  - {fileID: 2100000, guid: b30e13688ac7c674d97e2c62afe62a6e, type: 2}
+  - {fileID: 2100000, guid: 8475525e5b81e934e9bb920664807671, type: 2}
+  - {fileID: 2100000, guid: dd010537f8d9e774182f2ed8c6b28b71, type: 2}
+  - {fileID: 2100000, guid: 91ea0fa18c482114cb5c02f8f894a37b, type: 2}
+  - {fileID: 2100000, guid: b178aba010939de4e974cbee877441e7, type: 2}
+  - {fileID: 2100000, guid: 594e9b7e4baed4c4fb63d79fc3007958, type: 2}
+  - {fileID: 2100000, guid: 5bc5023b106729745953424dec1adb35, type: 2}
+  - {fileID: 2100000, guid: 5bc5023b106729745953424dec1adb35, type: 2}
+  - {fileID: 2100000, guid: 1585eecdf7ac2d14e9786c11cf3b0db8, type: 2}
+  - {fileID: 2100000, guid: 735fe70897f392341a787263b02a1ddf, type: 2}
+  - {fileID: 2100000, guid: 2eaecf5bce714864cbe95482130c2541, type: 2}
+  - {fileID: 2100000, guid: d83f99514a7582341848b00a1126fad3, type: 2}
+  - {fileID: 2100000, guid: 5404b88b1175ebd4e9a962f39c41327b, type: 2}
+  - {fileID: 2100000, guid: a651cd864a8189848a92eaf0a4089cb0, type: 2}
+  - {fileID: 2100000, guid: 95e858ce588557e48bdcca5d2b3d7e02, type: 2}
+  - {fileID: 2100000, guid: ebf26408507701543868bb7884838f1f, type: 2}
+  - {fileID: 2100000, guid: 99d1668643a765a4e9b5e6a61a270a49, type: 2}
+  - {fileID: 2100000, guid: f6ffc8896b4e48149b3b80451fa77798, type: 2}
+  - {fileID: 2100000, guid: 68eac1a866136c94580d3e5ff06bb44e, type: 2}
+  catAccesoriesAmount: 11
+  timeBetweenSpawns: 7.5
+--- !u!1 &9011798735884969054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8218233355561699580}
+  m_Layer: 0
+  m_Name: SpawnLocation
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8218233355561699580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9011798735884969054}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5818555086607274658}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

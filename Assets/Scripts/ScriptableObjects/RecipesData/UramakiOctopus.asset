@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da36396e17284b4fac174b58f9a9205, type: 3}
+  m_Name: UramakiOctopus
+  m_EditorClassIdentifier: 
+  ingredientsArray: 010000000000000004000000
+  recipePrefab: {fileID: 7296222449888188449, guid: 982ffda79d2addf40a5bfdede81c9cb8, type: 3}
+  recipeSprite: {fileID: 21300000, guid: eaccc8a2b30adee47bfc828f7add9c5a, type: 3}

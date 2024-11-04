@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1badc5609775d6f41b5c2f9141059b02, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  levelName: Tuesday
+  levelSceneNumber: 2
+  time: 150
+  levelImage: {fileID: 21300000, guid: 59039d54d0493af418b37c4140fb6303, type: 3}
+  recipesUsed:
+  - {fileID: 11400000, guid: d8d5bf63c08a990499b48edcd79bf05a, type: 2}
+  - {fileID: 11400000, guid: 4a17e4a0a9cc4d14a840412aa9625503, type: 2}
+  - {fileID: 11400000, guid: e6e2f745a3ddba548a49047225a11c4b, type: 2}
+  - {fileID: 11400000, guid: 78b620ffe7ac39e4b91ed82b605c6d3b, type: 2}
+  plateAmount: 3

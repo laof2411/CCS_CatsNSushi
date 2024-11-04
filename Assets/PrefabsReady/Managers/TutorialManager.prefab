@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5639339821985405699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3234426661536738471}
+  - component: {fileID: 3262216900122231252}
+  m_Layer: 0
+  m_Name: TutorialManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3234426661536738471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5639339821985405699}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3262216900122231252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5639339821985405699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453351a76a3f8a347b6492afd8698ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutorialImages:
+  - {fileID: 21300000, guid: 430c51eb034a22244a2305464b5693af, type: 3}
+  - {fileID: 21300000, guid: dd126de528f7bfe4f90ab9e89f8763f4, type: 3}
+  - {fileID: 21300000, guid: 94649d8974418e944a16b55628fa9771, type: 3}
+  - {fileID: 21300000, guid: 0c1e895bfbf71ea449306f8d99c0e81e, type: 3}
+  - {fileID: 21300000, guid: bf08fca3f767d3c43a409620e4ee6e76, type: 3}
+  - {fileID: 21300000, guid: c5d56ddebb8dca04aaa730db7feaf214, type: 3}
+  - {fileID: 21300000, guid: 018f102d8a5caef46a9a78ec3df8409b, type: 3}
+  - {fileID: 21300000, guid: 2c23e9aa5a32a5c4789d833992578993, type: 3}
+  - {fileID: 21300000, guid: 38d50e6a42ae24f47ac82c0dfa358fbb, type: 3}
+  - {fileID: 21300000, guid: 961a94035ad86b2489d1431b1c8a334f, type: 3}
+  - {fileID: 21300000, guid: a2a4ebbc28f478741bef81c067a1f062, type: 3}
+  tutorialSeen: 00000000000000000000
+  tutorialCanvas: {fileID: 0}

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396607ed8f1dfbc488a49ecc0467388e, type: 3}
+  m_Name: 09-BambooPlant
+  m_EditorClassIdentifier: 
+  collectibleName: "Panda\xB4s Favorite Food"
+  ID: 9
+  collectibleMesh: {fileID: 7685248664659649325, guid: b44ecc25abf01f84591ad65581c40d2c, type: 3}

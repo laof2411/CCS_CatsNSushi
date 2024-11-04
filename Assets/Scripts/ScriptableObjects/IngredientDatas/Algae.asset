@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81723dbae07ab04fb53cd7fe4cb8ee2, type: 3}
+  m_Name: Algae
+  m_EditorClassIdentifier: 
+  type: 0
+  startingStatus: 1
+  ingredientPrefab: {fileID: 6090912088385050732, guid: 179dfeafc927ba645a4a0f03a5b08bb5, type: 3}
+  un_ReadyMesh: {fileID: 0}
+  readyMesh: {fileID: 0}
+  un_readyMeshMaterial: {fileID: 0}
+  readyMeshMaterial: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 489b6177d3b03db48a602a100af52fab, type: 3}
